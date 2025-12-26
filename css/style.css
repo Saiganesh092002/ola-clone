@@ -1,0 +1,242 @@
+@import url(./main.css);
+@import url(./footer.css);
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'gentonamedium';
+}
+nav{
+    /* border: 4px solid red; */
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;    
+    padding-top: 8px;
+}
+#div1 {
+    /* border: 2px solid green; */
+    display: inline-block;
+    margin-top:2px;
+    margin-left: 100px;
+}
+#div2{
+    /* border:2px solid green; */
+     display: inline-block;
+    list-style: none;
+    height: 44px;
+    width: 22%;
+    vertical-align: top;
+    margin-left: 10px;
+}
+#div2 ul{
+    /* border: 2px solid red; */
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+    margin-top:10px;
+    margin-right: 45px;
+}
+#div2 ul li{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'gentonamedium';
+    letter-spacing: normal;
+    font-weight: 600;
+}
+#div3 {
+    /* border: 2px solid red; */
+    display:inline-block;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 130px;
+}
+#div3 button{
+    height: 44px;
+    width: 120px;
+    border:none;
+    margin-left: 25px;
+}
+#b1{
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'gentonamedium';
+    letter-spacing: normal;
+    font-weight: 600;
+}
+#b2{
+    font-size: 14px;
+    font-family: 'gentonamedium';
+    letter-spacing: normal;
+    font-weight: 600;
+}
+#span{
+    /* border: 4px solid green; */
+    color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 70px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 300;
+}
+#main{
+    /* border: 3px solid red; */
+    width:100%;
+    height:50vh;
+    background-image: url(../css/images/ola.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 88%, 62% 88%, 0 100%, 0 68%, 0% 20%);
+}
+#main h1{
+    color: #fff;
+    margin-left:245px;
+    max-width: 320px;
+    text-align: left;
+    font-family: 'gentonamedium';
+    font-size: 48px;
+    line-height: 48px;
+}
+#div4{
+    /* border: 4px solid green ; */
+    display: inline-block;
+    width: 50vh;
+    height:50px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: 240px;
+    
+}
+#div4 ul{
+    display: flex;
+    list-style: none;
+    
+}
+#div4 ul li{
+    margin-left: 45px;
+    margin-top: 15px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'gentonamedium';
+    
+}
+#div4 ul li a{
+    color: #000;
+    text-decoration: none;
+}
+#div5{
+    /* border: 4px solid green ; */
+    background-color: #F2F4F6;
+    width: 70%;
+    height: 90px;
+    margin-left: 240px;
+    
+}
+.field1,.field2{
+    height:50px;
+    width: 30%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#div6 button{
+    margin-left: 70px;
+    height:50px;
+    width: 25%;
+    padding-right: 75px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+    border:none;
+    box-shadow: -3px 3px 0 #32c86e;
+}
+#div6 button img{
+    position: absolute;
+    padding-left: 62px;
+}
+#section1{
+    /* border: 4px solid red; */
+    height:180px;
+    width:70%;
+    /* position: absolute; */
+    left: 15%;
+    justify-content: center;
+    align-items: center;
+}
+#div7 {
+    /* border: 4px solid green; */
+    width: 100%;
+    height: 172px;
+    margin-left:250px;
+}
+#div7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#section2 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 3px solid red;
+}
+
+#h11 {
+    border: 3px solid red;
+    display:inline-block;
+    text-align: center;
+    width: 100vh;
+    margin-left: 45px;
+    margin-top: 90px;
+    font-size: 45px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+}
+#div9{
+    /* border: 3px solid pink; */
+    display: inline-block;
+    width: 100%;
+    height: 380px;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-left: 45px;
+}
+.image{
+    /* border: 3px solid blue; */
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    padding-right:10px;
+}
+.image img{
+    width: 120px;
+}
+.image h2{
+    letter-spacing: -1px;
+    color: #000000;
+    margin: 10px 0;
+    font-size: 40px;
+    font-family: 'gentonamedium';
+    line-height: 48px;
+}
+.image h4{
+    font-size: 28px;
+    line-height: 32px;
+    color: #212026;
+    margin: 10px 0;
+    font-family: 'gentonamedium';
+}
+.image p{
+    color: #333;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
